@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Acerca de
-description: "Why use Project Pages?"
+title: Curso
+description: "Análisis de Redes Sociales: Métodos y Aplicaciones"
 "header-img": "img/home-bg.jpg"
 published: true
 ---

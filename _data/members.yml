@@ -1,12 +1,15 @@
 # Members
 
-- name: Ahmet Cecen
-  role: Data Scientist / Materials Informatics
-  img: https://avatars1.githubusercontent.com/u/7231251?v=3&s=460
-  github: ahmetcecen
-  gplus: https://plus.google.com/+AhmetCecen-GPlus
-  bio: Ahmet Cecen is currently pursuing a PhD in Computational Science and Engineering at Georgia Institute of Technology.  He earned a bachelor’s degree in Mechanical Engineering at Drexel University. Ahmet has been doing research in the fields of computational materials science and materials informatics for the past 6 years, throughout his undergraduate and graduate studies. His current research focus is on leveraging statistical analysis and machine learning tools to solve big data analytics problems in materials science. 
-  url: http://ahmetcecen.github.io/
+- name: Daniela Aguirre Guerrero
+  role: Ciencia de Redes / Teoría de Gráficas / Algoritmos Distribuidos
+  img: ../img/members/me.jpg
+  github: daniaguirre
+  twitter: danielaaguirreg
+  researchgate: https://www.researchgate.net/profile/Daniela-Aguirre-Guerrero
+  #gplus: https://plus.google.com/+AhmetCecen-GPlus
+  orcid: 0000-0003-4945-7258
+  bio: En el año de 2011, recibió en título de Ingeniera en Telemática por el IPN; en el año de 2014, recibió el título de Maestra en Ciencias Y Tecnologías de la Información por la UAM; en el año de 2019, recibió el título de Doctora en Tecnología, por la Universitat de Girona, España. Se ha desempeñado como instructora de Java y Javascript para el IPN, Telmex y Ferromex. En el área de investigación ha publicado y arbitrado artículos para revistas científicas internacionales sobre temas de sistemas complejos, teoría de gráficas y redes de computadoras.  Actualmente, es Candidata a Investigadora Nacional por el SNI y se desempeña como Profesora Visitante en el Departamento de Sistemas de Información y Comunicaciones de la UAM, unidad Lerma. 
+  url: https://daniaguirre.github.io/
   visible: true
    
 - name: David Brough
