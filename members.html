@@ -9,7 +9,11 @@ header-img: "img/portadas/p7.jpg"
 {% for member in site.data.members %}
 	{% if member.visible == true %}
 
-	<img src="{{ member.img }}" style="margin-top:0px; margin-bottom:5px; margin-right:10px; float:left; width:150px !important">
+	{% if member.imgRoundCorner %}
+	<img src="{{ member.img }}" style="margin-top:0px; margin-bottom:5px; margin-right:10px; float:left; width:150px !important">	
+	{% else %}
+	<img src="{{ member.img }}" style="border-radius: 50%; margin-top:0px; margin-bottom:5px; margin-right:10px; float:left; width:150px !important; ">
+	{% endif %}
 	
 	<h1>{{ member.name }}</h1>
 	
@@ -31,11 +35,11 @@ header-img: "img/portadas/p7.jpg"
 	<span class="social-share-googleplus"><a target="_blank" href="https://orcid.org/{{member.orcid }}" title="Github"><img src="{{ "/img/icons/orcid-icon.png" | prepend: site.baseurl }}" style="height:20px">ORCID</a></span> 
 	{% endif %}
 
-	</br>
-
+	<section class="member-info">
 	{% if member.bio %} 
 	{{ member.bio }}
 	{% endif %}
+	</section>
 	
 	<hr>
 

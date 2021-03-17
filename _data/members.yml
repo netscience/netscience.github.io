@@ -3,6 +3,7 @@
 - name: Daniela Aguirre Guerrero
   role: Ciencia de Redes / Teoría de Gráficas / Algoritmos Distribuidos
   img: ../img/members/me.jpg
+  imgRoundCorner: true
   github: daniaguirre
   twitter: danielaaguirreg
   researchgate: https://www.researchgate.net/profile/Daniela-Aguirre-Guerrero
@@ -12,12 +13,12 @@
   url: https://daniaguirre.github.io/
   visible: true
    
-- name: David Brough
-  role: Data Scientist / Materials Informatics
-  img: https://avatars0.githubusercontent.com/u/4368625?v=3&s=460
-  github: davidbrough1
-  bio: David is a PhD student in the School of Computational Science and Engineering at Georgia Institute of Technology. David earned a Master’s degree in experimental condensed matter physics at Brigham Young University where he fabricated and characterized thin-films and carbon nanotubes used in nanostructured high capacity battery electrodes and in X-ray windows. As an undergraduate, David studied theoretical physics and researched the evolution of chaotic systems using neural networks at Westminster College. He is a trainee in the NSF IGERT FLAMEL program, and one of the lead developers on PyMKS materials informatics toolkit.
-  url: http://davidbrough.net 
+- name: Ismael Ariel Robles
+  role: Teoría de gráficas / Desarrollo de software / Complejidad computacional
+  img: ../img/members/ismael.png
+  github: iarobles
+  bio: Es Ingeniero en Telemática por el Instituto Politécnico Nacional (IPN). Tiene un posgrado en Ciencias (Matemáticas), por la Universidad Autónoma Metropolitana, Unidad Iztapalapa (UAM-I). Trabajó por 4 años y medio como consultor y director de proyectos de software para la industria privada. Ha impartido cursos en el IPN, UACM, UAM, Telmex y Ferromex. Es miembro de la Society for Industrial and Applied Mathematics (SIAM). En el área de investigación, ha publicado artículos en revistas internacionales en el área de matemáticas. 
+  url: https://iarobles.github.io
   visible: true
   
 - name: Surya R. Kalidindi

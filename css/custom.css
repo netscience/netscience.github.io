@@ -1,0 +1,23 @@
+.site-heading h1{  
+  text-shadow: -4px 4px 3px black;
+}
+
+.site-heading .subheading{  
+  text-shadow: -1px 2px 1px black
+}
+
+.intro-header{
+  background-attachment: fixed;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.member-info{
+	margin-top:2em;
+	margin-bottom:2em;
+}
+
+.social-share-googleplus{
+	margin-right: 7px;
+}
