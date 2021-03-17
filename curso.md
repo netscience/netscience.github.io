@@ -2,7 +2,7 @@
 layout: page
 title: Curso
 description: "Análisis de Redes Sociales: Métodos y Aplicaciones"
-"header-img": "img/home-bg.jpg"
+"header-img": "img/portadas/p7.jpg"
 published: true
 ---
 

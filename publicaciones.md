@@ -2,7 +2,7 @@
 layout: page
 title: Publicaciones
 description: "Resultados difundidos en conferencias y revistas"
-"header-img": "img/home-bg.jpg"
+"header-img": "img/portadas/p7.jpg"
 published: true
 ---
 
