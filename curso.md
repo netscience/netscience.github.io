@@ -1,12 +1,14 @@
 ---
 layout: page
 title: Curso
-description: "Análisis de Redes Sociales: Métodos y Aplicaciones"
+description: "Herramientas Computacionales para el Análisis de Redes Sociales"
 "header-img": "img/portadas/p7.jpg"
 published: true
 ---
 
 
-Este proyecto tiene como objetivo aplicar técnicas de _Aprendizaje Automático_, _Ciencia de Datos_ y _Ciencia de Redes_ en la **Caracterización de Modelos de Evolución de Redes Sociales**, se busca que los modelos obtenidos sean validados en casos de estudio concretos, tales como redes de coautorı́as y Twitter.
+El curso **Herramientas Computacionales para el Análisis de Redes Sociales** está dirigido a profesores y estudiantes de posgrado de las áreas de Ciencias de la Computación y Ciencias Sociales de la UAM. El objetivo del curso es brindar un acercamiento al _análisis de redes sociales_ mediante el uso de herramientas computacionales aplicadas a casos de estudio sobre _análisis de redes académicas_ y _análisis de propagación de información en Twitter_. 
 
-En este sitio encontrás información sobre actividades realizadas en el marco del proyecto, tales como: resultados difundidos en conferencias y revistas, el _seminario Ciencia de Redes: Métodos y Aplicaciones_, el _curso Análisis de Redes Sociales_, un blog sobre temas de Análisis de Redes Sociales, proyectos integradores y terminales disponibles para alumnos de la UAM.
+En la primera parte del curso se presentarán conceptos fundamentales de _teoría de gráficas_ y _estadística_ aplicadas al _análisis de redes sociales_. En la segunda parte se realizarán casos de estudio mediante el uso de herramientas computacionales, tales como: [**VOSviewer**](https://www.vosviewer.com/), [**Bibliometrix**](https://bibliometrix.org/) y [**Gephi**](https://gephi.org/), así como el uso del [**API de Twitter**](https://developer.twitter.com/en).
+
+El curso está planeado para el mes de julio del 2021 y tendrá una duración de 10 hrs. Próximamente se publicarán las fechas exactas, así como el temario e información sobre el proceso de inscripción.

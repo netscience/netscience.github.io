@@ -1,7 +1,7 @@
 # Members
 
 - name: Daniela Aguirre Guerrero
-  role: Ciencia de Redes / Teoría de Gráficas / Algoritmos Distribuidos
+  role: Ciencia de redes / Teoría de gráficas / Algoritmos distribuidos
   img: ../img/members/me.jpg
   imgRoundCorner: true
   github: daniaguirre
@@ -12,18 +12,19 @@
   bio: En el año de 2011, recibió en título de Ingeniera en Telemática por el IPN; en el año de 2014, recibió el título de Maestra en Ciencias Y Tecnologías de la Información por la UAM; en el año de 2019, recibió el título de Doctora en Tecnología, por la Universitat de Girona, España. Se ha desempeñado como instructora de Java y Javascript para el IPN, Telmex y Ferromex. En el área de investigación ha publicado y arbitrado artículos para revistas científicas internacionales sobre temas de sistemas complejos, teoría de gráficas y redes de computadoras.  Actualmente, es Candidata a Investigadora Nacional por el SNI y se desempeña como Profesora Visitante en el Departamento de Sistemas de Información y Comunicaciones de la UAM, unidad Lerma. 
   url: https://daniaguirre.github.io/
   visible: true
-   
+  
+- name: Gerardo Abel Laguna Sánchez
+  role: Comunicaciones digitales / Inteligencia computacional / Procesamiento digital de señales
+  img: ../img/members/gerardo.jpeg
+  bio: Gerardo Laguna recibió, en 2010, el grado de Doctor en Ciencias de la Computación del Centro de Investigación en Computación (CIC) del IPN de México; en el año 1998, el grado de Maestro en Ingeniería de la División de Estudios de Posgrado de la Facultad de Ingeniería (DEPFI) de la UNAM y, en 1993, el grado de Ingeniero en Electrónica de la UAM. El Dr. Laguna trabajó en el sector privado como ingeniero de Diseño y Desarrollo (R&D) de dispositivos originales para manufactura (OEM) y sistemas supervisorios (SCADA) con aplicaciones de telemetría y telecontrol en la industria y el sector de distribución de energía eléctrica. Actualmente, el Dr. Laguna es Senior Member de la IEEE y forma parte del Cuerpo Académico y de Investigación del Departamento de Sistemas de Información y Comunicaciones de la UAM Lerma; no obstante, antes fue profesor visitante en el área de Redes y Telecomunicaciones del Departamento de Ingenería Eléctrica de la UAM Iztapalapa.
+  researchgate: https://www.researchgate.net/profile/Gerardo-Laguna-Sanchez-2 
+  url: http://gerardo-laguna-professional.blogspot.com/
+  visible: true   
+
 - name: Ismael Ariel Robles
   role: Teoría de gráficas / Desarrollo de software / Complejidad computacional
   img: ../img/members/ismael.png
   github: iarobles
-  bio: Es Ingeniero en Telemática por el Instituto Politécnico Nacional (IPN). Tiene un posgrado en Ciencias (Matemáticas), por la Universidad Autónoma Metropolitana, Unidad Iztapalapa (UAM-I). Trabajó por 4 años y medio como consultor y director de proyectos de software para la industria privada. Ha impartido cursos en el IPN, UACM, UAM, Telmex y Ferromex. Es miembro de la Society for Industrial and Applied Mathematics (SIAM). En el área de investigación, ha publicado artículos en revistas internacionales en el área de matemáticas. 
+  bio: Es Ingeniero en Telemática por el IPN. Tiene un posgrado en Ciencias (Matemáticas), por la UAM. Trabajó por 4 años y medio como consultor y director de proyectos de software para la industria privada. Ha impartido cursos en el IPN, UACM, UAM, Telmex y Ferromex. Es miembro de la Society for Industrial and Applied Mathematics (SIAM). En el área de investigación, ha publicado artículos en revistas internacionales en el área de matemáticas. 
   url: https://iarobles.github.io
   visible: true
-  
-- name: Surya R. Kalidindi
-  role: Materials Informatics
-  img: https://avatars1.githubusercontent.com/u/6601815?v=3&s=400
-  bio: Dr. Kalidindi’s research interests are broadly centered on designing material internal structure (including composition) for optimal performance in any selected application and identifying hybrid processing routes for its manufacture. To this end, he has employed a harmonious blend of experimental, theoretical, and numerical approaches in his research.
-  url: http://mined.gatech.edu/
-  visible: false
