@@ -7,10 +7,10 @@ url: "https://netscience.github.io"
 
 
 # Secondary Parameters
-baseurl: "/netscience"
+baseurl: ""
 header-img: img/portadas/p7.jpg
 headercolor: "#FFFFFF"
-logo: /netscience/img/logos/Project-Pages-New-Logo-Inverted.png
+logo: /img/logos/Project-Pages-New-Logo-Inverted.png
 
 # Tertiary Parameters
 github_username:  netscience
