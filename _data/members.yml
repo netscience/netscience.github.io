@@ -9,14 +9,22 @@
   researchgate: https://www.researchgate.net/profile/Daniela-Aguirre-Guerrero
   #gplus: https://plus.google.com/+AhmetCecen-GPlus
   orcid: 0000-0003-4945-7258
-  bio: En el año de 2011, recibió en título de Ingeniera en Telemática por el IPN; en el año de 2014, recibió el título de Maestra en Ciencias Y Tecnologías de la Información por la UAM; en el año de 2019, recibió el título de Doctora en Tecnología, por la Universitat de Girona, España. Se ha desempeñado como instructora de Java y Javascript para el IPN, Telmex y Ferromex. En el área de investigación ha publicado y arbitrado artículos para revistas científicas internacionales sobre temas de sistemas complejos, teoría de gráficas y redes de computadoras.  Actualmente, la Dra. Daniela es Candidata a Investigadora Nacional por el SNI y se desempeña como Profesora Visitante en el Departamento de Sistemas de Información y Comunicaciones de la UAM, unidad Lerma. 
+  bio: En el año de 2011, recibió en título de Ingeniera en Telemática por el IPN; en el año de 2014, recibió el título de Maestra en Ciencias Y Tecnologías de la Información por la UAM; en el año de 2019, recibió el título de Doctora en Tecnología, por la Universitat de Girona, España. Se ha desempeñado como instructora de Java y Javascript para el IPN, Telmex y Ferromex. En el área de investigación ha publicado y arbitrado artículos para revistas científicas internacionales sobre temas de sistemas complejos, teoría de gráficas y redes de computadoras.  Actualmente, la Dra. Aguirre es Candidata a Investigadora Nacional por el SNI y se desempeña como Profesora Visitante en el Departamento de Sistemas de Información y Comunicaciones de la UAM, unidad Lerma. 
   url: https://daniaguirre.github.io/
   visible: true
   
+- name: Karen Samara Miranda Campos
+  role: Desempeño de voz sobre IP / Redes inalámbricas / Evaluación de protocolos de comunicación
+  img: ../img/members/karen.jpg
+  bio: Desde enero del 2018, la Dra. Miranda es profesora asociada de la UAM, unidad Lerma. Anteriormente, fué profesora visitante en la UAM, unidad Cuajimalpa. De enero del 2011 a abril del 2014, trabajó en INRIA Lille con el grupo de investigación FUN, dirigido por Nathalie Mitton. En diciembre de 2013, recibió el título de Doctora en Ciencias de la Computación por la Universidad de Lille, bajo la dirección de David Simplot-Ryl y Tahiry Razafindralambo. Recibió el título de Ingeniera en Sistemas de Información, y  el título de Maestra en Ciencias y Tecnologías de la Información por la UNAM y la UAM-Iztapalapa, respectivamente.
+  researchgate: https://www.researchgate.net/profile/Karen-Miranda-3 
+  url: https://ksmiranda.github.io/ 
+  visible: true   
+
 - name: Gerardo Abel Laguna Sánchez
   role: Comunicaciones digitales / Inteligencia computacional / Procesamiento digital de señales
   img: ../img/members/gerardo.jpeg
-  bio: Gerardo Laguna recibió, en 2010, el grado de Doctor en Ciencias de la Computación del Centro de Investigación en Computación (CIC) del IPN de México; en el año 1998, el grado de Maestro en Ingeniería de la División de Estudios de Posgrado de la Facultad de Ingeniería (DEPFI) de la UNAM y, en 1993, el grado de Ingeniero en Electrónica de la UAM. El Dr. Laguna trabajó en el sector privado como ingeniero de Diseño y Desarrollo (R&D) de dispositivos originales para manufactura (OEM) y sistemas supervisorios (SCADA) con aplicaciones de telemetría y telecontrol en la industria y el sector de distribución de energía eléctrica. Actualmente, el Dr. Laguna es Senior Member de la IEEE y forma parte del Cuerpo Académico y de Investigación del Departamento de Sistemas de Información y Comunicaciones de la UAM Lerma; no obstante, antes fue profesor visitante en el área de Redes y Telecomunicaciones del Departamento de Ingenería Eléctrica de la UAM Iztapalapa.
+  bio: En 2010, recibió el grado de Doctor en Ciencias de la Computación del Centro de Investigación en Computación (CIC) del IPN de México. En el año 1998, recibió el grado de Maestro en Ingeniería de la División de Estudios de Posgrado de la Facultad de Ingeniería de la UNAM. En 1993, recibió el grado de Ingeniero en Electrónica de la UAM. El Dr. Laguna trabajó en el sector privado como ingeniero de Diseño y Desarrollo (R&D) de dispositivos originales para manufactura (OEM) y sistemas supervisorios (SCADA) con aplicaciones de telemetría y telecontrol en la industria y el sector de distribución de energía eléctrica. Actualmente, el Dr. Laguna es Senior Member del Institute of Electrical and Electronics Engineers (IEEE) y forma parte del Cuerpo Académico y de Investigación del Departamento de Sistemas de Información y Comunicaciones de la UAM, unidad Lerma; no obstante, antes fue profesor visitante en el área de Redes y Telecomunicaciones del Departamento de Ingenería Eléctrica de la UAM, unidad Iztapalapa.
   researchgate: https://www.researchgate.net/profile/Gerardo-Laguna-Sanchez-2 
   url: http://gerardo-laguna-professional.blogspot.com/
   visible: true   
@@ -27,4 +35,12 @@
   github: iarobles
   bio: Es Ingeniero en Telemática por el IPN. Tiene un posgrado en Ciencias (Matemáticas), por la UAM. Trabajó por 4 años y medio como consultor y director de proyectos de software para la industria privada. Ha impartido cursos en el IPN, UACM, UAM, Telmex y Ferromex. Es miembro de la Society for Industrial and Applied Mathematics (SIAM). En el área de investigación, ha publicado artículos en revistas internacionales en el área de matemáticas. 
   url: https://iarobles.github.io
+  visible: true
+
+- name: Juan Carlos López García
+  role: Internacionalización y endogamia de los académicos mexicanos / Redes y comunidades académicas en México / Políticas de la educación superior y gobierno universitario
+  img: ../img/members/jcarlos.png
+  twitter: jcarloslg
+  bio: Sociólogo y maestro en Estudios Políticos y Sociales por la UNAM, en donde también ha participado como docente y colaborador en proyectos de investigación de la Facultad de Ciencias Políticas y Sociales, el Instituto de Investigaciones sobre la Universidad y la Educación, el Instituto de Investigaciones Sociales, y Facultad de Filosofía y Letras. En 2015 fue investigador visitante en el egolab-GRAFO del Departamento de Antropología Social y Cultural de la Universidad Autónoma de Barcelona. Desde 2018 se desempeña como profesor investigador del Departamento de Estudios Culturales de la UAM-Lerma, en donde imparte la asignatura "Complejidad e interdisciplina". Es miembro del Consejo Mexicano de Investigación Educativa (COMIE). 
+  researchgate: https://www.researchgate.net/profile/Juan-Carlos-Garcia-10 
   visible: true

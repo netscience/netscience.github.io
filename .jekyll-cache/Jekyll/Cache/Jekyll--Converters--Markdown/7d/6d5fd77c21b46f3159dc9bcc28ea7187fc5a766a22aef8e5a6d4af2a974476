@@ -1,0 +1,191 @@
+I"p<!-- Start Writing Below in Markdown -->
+<h1 id="authors">Authors</h1>
+<p>Daniela Aguirre Guerrero, Juan Carlos López García, Karen Samara Miranda Campos</p>
+
+<h1 id="abstract">Abstract</h1>
+
+<p>The social network analysis has been successfully used to learn the nature and relationship of knowledge construction and scientific collaborations. In particular, the analysis of co-authorship and citation networks allows to study the arise and impact of new research trends and research groups by using algorithms for community detection and node ranking. Most of the studies in this direction focus on identifying the centrality and influence of individual scientists; however, a research group should hold a more influential position, and thus plays a more important role. Moreover, the identification and ranking of research groups is a significant component to understand how the scientific collaborations should be molded by disruptive events, such as the Coronavirus Disease 2019 (COVID-19).</p>
+
+<p>The COVID-19 brought numerous challenges to the global scientific community, which has impacted the scientific collaboration dynamics in different knowledge areas from social to basic sciences. The COVID-19 research landscape has been presented in studies focused on the top productive regions, i.e., North America, Europe, and China. However, the scientific community of developing regions, such as Latin-America, have their own collaboration dynamics and research interests. This study aimed to investigate the collaboration relationships and research topics of the Latin-American scientific community on COVID-19, to identify and rank research groups of different knowledge areas.</p>
+
+<p>The presented analysis was developed on the studies published in 2019 by authors affiliated with Latin-American institutions. First, the articles were retrieved from the Scopus database, then an analysis of co-authorship and citation networks over time and space was performed to identify the most productive countries, authors, and their collaboration dynamics and research interests. Finally, an algorithm for community ranking is proposed and applied to identify the most influential research groups on different knowledge areas. The main contributions of this study are a novel algorithm for community ranking and the COVID-19 research landscape of the Latin-American scientific community.</p>
+
+<h1 id="keywords">Keywords</h1>
+<p>Community ranking, scientific networks, COVID-19</p>
+
+<ul id="markdown-toc">
+  <li><a href="#authors" id="markdown-toc-authors">Authors</a></li>
+  <li><a href="#abstract" id="markdown-toc-abstract">Abstract</a></li>
+  <li><a href="#keywords" id="markdown-toc-keywords">Keywords</a></li>
+  <li><a href="#basic-functionality" id="markdown-toc-basic-functionality">Basic Functionality</a>    <ul>
+      <li><a href="#headers" id="markdown-toc-headers">Headers</a></li>
+    </ul>
+  </li>
+  <li><a href="#header-1" id="markdown-toc-header-1">Header 1</a>    <ul>
+      <li><a href="#header-2" id="markdown-toc-header-2">Header 2</a>        <ul>
+          <li><a href="#header-3" id="markdown-toc-header-3">Header 3</a></li>
+        </ul>
+      </li>
+      <li><a href="#styling" id="markdown-toc-styling">Styling</a></li>
+      <li><a href="#lists" id="markdown-toc-lists">Lists</a></li>
+      <li><a href="#links" id="markdown-toc-links">Links</a></li>
+      <li><a href="#images" id="markdown-toc-images">Images</a></li>
+      <li><a href="#code" id="markdown-toc-code">Code</a></li>
+      <li><a href="#mathjax" id="markdown-toc-mathjax">MathJax</a></li>
+      <li><a href="#tables" id="markdown-toc-tables">Tables</a></li>
+      <li><a href="#quotes" id="markdown-toc-quotes">Quotes</a></li>
+      <li><a href="#rule" id="markdown-toc-rule">Rule</a></li>
+      <li><a href="#html" id="markdown-toc-html">HTML</a></li>
+    </ul>
+  </li>
+  <li><a href="#advanced-functionality" id="markdown-toc-advanced-functionality">Advanced Functionality</a>    <ul>
+      <li><a href="#color-and-alignment" id="markdown-toc-color-and-alignment">Color and Alignment</a></li>
+    </ul>
+  </li>
+  <li><a href="#some-advanced-features" id="markdown-toc-some-advanced-features">Some Advanced Features</a>    <ul>
+      <li><a href="#data-projector" id="markdown-toc-data-projector">Data Projector</a></li>
+      <li><a href="#stl" id="markdown-toc-stl">STL</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="basic-functionality">Basic Functionality</h1>
+
+<h2 id="headers">Headers</h2>
+
+<h1 id="header-1">Header 1</h1>
+
+<h2 id="header-2">Header 2</h2>
+
+<h3 id="header-3">Header 3</h3>
+
+<h2 id="styling">Styling</h2>
+
+<p><strong>Bold</strong></p>
+
+<p><em>Italics</em></p>
+
+<p><strong><em>Bold and Italics</em></strong></p>
+
+<h2 id="lists">Lists</h2>
+
+<ol>
+  <li>
+    <p>Item 1</p>
+  </li>
+  <li>
+    <p>Item 2</p>
+  </li>
+</ol>
+
+<ul>
+  <li>
+    <p>Unordered Item</p>
+
+    <ul>
+      <li>
+        <p>Sub Item 1</p>
+
+        <ol>
+          <li><strong>Bold</strong> Sub Sub Ordered Item</li>
+        </ol>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="links">Links</h2>
+
+<p><a href="https://www.google.com">In-Line</a></p>
+
+<p><a href="https://www.mozilla.org">I’m a reference-style link 1</a></p>
+
+<p><a href="http://www.reddit.com">I’m a reference-style link 1</a></p>
+
+<h2 id="images">Images</h2>
+
+<p>Hold your pointer clicked over the image to expand the view.</p>
+
+<p><img src="http://projectpages.github.io/project-pages/img/Logo_Fairy_Tail_right.png" alt="Description" /></p>
+
+<h2 id="code">Code</h2>
+
+<p>Inline <code class="language-plaintext highlighter-rouge">code</code>.</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="n">np</span>
+<span class="k">def</span> <span class="nf">hello_world</span><span class="p">():</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">'Hello World!'')</span></code></pre></figure>
+
+<h2 id="mathjax">MathJax</h2>
+
+<p>Use MathJax for Math.
+\(A = \pi r^2\)</p>
+
+<h2 id="tables">Tables</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Here</th>
+      <th style="text-align: left">is</th>
+      <th style="text-align: center">a</th>
+      <th style="text-align: right">row!</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>is</td>
+      <td style="text-align: left">Left</td>
+      <td style="text-align: center">Center</td>
+      <td style="text-align: right">Right</td>
+    </tr>
+    <tr>
+      <td>a</td>
+      <td style="text-align: left">cut</td>
+      <td style="text-align: center">it</td>
+      <td style="text-align: right">A</td>
+    </tr>
+    <tr>
+      <td>column</td>
+      <td style="text-align: left">short</td>
+      <td style="text-align: center">B</td>
+      <td style="text-align: right">C</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="quotes">Quotes</h2>
+
+<blockquote>
+  <p>War does not decide who is <em>right</em>, only who is <strong>left</strong>.</p>
+</blockquote>
+
+<h2 id="rule">Rule</h2>
+
+<hr />
+
+<h2 id="html">HTML</h2>
+
+<p>Can write the whole post or sections in HTML for very specific needs. [For the advanced user or the code savvy.]</p>
+
+<h1 id="advanced-functionality">Advanced Functionality</h1>
+
+<p>Head over to the <a href="http://projectpages.github.io/ppguide/">documentation page</a> for tutorials on some basic html formatting and some extensions you can use for cool stuff like interactive 3D visualizations.</p>
+
+<h2 id="color-and-alignment">Color and Alignment</h2>
+
+<p align="center">This text is centered.</p>
+
+<p style="color:red">This is a red text with <span style="color:blue">blue</span> and <span style="color:green">green</span> inline text.</p>
+
+<h1 id="some-advanced-features">Some Advanced Features</h1>
+
+<h2 id="data-projector">Data Projector</h2>
+
+<embed src="/project-pages/2016/05/02/New-Projector/" height="500px" width="100%" />
+
+<h2 id="stl">STL</h2>
+
+<div align="center"><script src="https://embed.github.com/view/3d/projectpages/project-pages/gh-pages/stl/test.stl"></script></div>
+
+:ET
