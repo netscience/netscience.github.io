@@ -10,9 +10,9 @@ header-img: "img/portadas/p7.jpg"
 	{% if member.visible == true %}
 
 	{% if member.imgRoundCorner %}
-	<img src="{{ member.img }}" style="margin-top:0px; margin-bottom:5px; margin-right:10px; float:left; width:150px !important">	
+	<img src="{{ member.img }}" style="margin-top:0px; margin-bottom:5px; margin-right:10px; float:left; width:150px !important; {{ member.imgStyle}}">	
 	{% else %}
-	<img src="{{ member.img }}" style="border-radius: 50%; margin-top:0px; margin-bottom:5px; margin-right:10px; float:left; width:150px !important; ">
+	<img src="{{ member.img }}" style="border-radius: 50%; margin-top:0px; margin-bottom:25px; margin-right:10px; float:left; width:150px !important; {{ member.imgStyle }}">
 	{% endif %}
 	
 	<h1>{{ member.name }}</h1>
