@@ -21,3 +21,79 @@
 .social-share-googleplus{
 	margin-right: 7px;
 }
+
+
+/* styles for members page */
+
+.round-img{
+	border-radius: 50%;
+}
+
+.member-img{
+	margin-top:0px; 
+	margin-right:10px; 
+	width:150px; 
+}
+
+.member-header{
+	display:grid;
+	grid-template-columns: minmax(150px,auto) 1fr;
+	grid-template-rows: minmax(1em,auto) 1fr 20px;	
+}
+
+.member-imgwrapper{	
+	grid-column-start:1;
+	grid-column-end:2;
+	grid-row-start: 1;
+	grid-row-end:4;
+}
+
+.member-name{	
+	grid-column-start:2;
+	grid-column-end:3;
+	grid-row-start: 1;
+	grid-row-end:2;
+	margin-top:0px;
+}
+
+.member-role{
+	grid-column-start:2;
+	grid-column-end:3;
+	grid-row-start: 2;
+	grid-row-end:3;
+}
+
+.member-links{
+	grid-column-start:2;
+	grid-column-end:3;
+	grid-row-start: 3;
+	grid-row-end:4;
+}
+
+
+@media (max-width:950px){
+
+	.member-imgwrapper{	
+		grid-column-start:1;
+		grid-column-end:2;
+		grid-row-start: 1;
+		grid-row-end:2;
+	}
+
+	.member-name{	
+		display: flex;
+		align-items: center;
+	}
+
+	.member-role{
+		grid-column-start:1;
+		grid-column-end:3;
+	}
+
+	.member-links{
+		grid-column-start:1;
+		grid-column-end:3;
+	}
+
+
+}
