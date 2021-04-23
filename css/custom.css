@@ -26,6 +26,14 @@
 	text-align: center;
 }
 
+.live-stream-container{
+	text-align: center;
+}
+
+.live-stream-container frame{
+	max-width: 100%;
+}
+
 
 /* styles for members page */
 
