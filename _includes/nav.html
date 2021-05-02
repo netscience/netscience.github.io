@@ -21,19 +21,23 @@
 				{% for page in site.pages %}
                     {% if page.url contains "projects/" %}
                         {% if page.title %}
-                            <li>
-                                <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-                            </li>
+                            {% unless page.url contains "/search" %}
+                                <li>
+                                    <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+                                </li>
+                            {% endunless %}
                         {% endif %}
                     {% endif %}
                 {% endfor %}
                 {% for page in site.pages %}
                     {% if page.url contains "projects/" %}
                     {% else %}
-                        {% if page.title %}
-                            <li>
-                                <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-                            </li>
+                        {% if page.title%}
+                            {% unless page.url contains "/search" %}
+                                <li>
+                                    <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+                                </li>
+                            {% endunless %}
                         {% endif %}
                     {% endif %}
                 {% endfor %}
