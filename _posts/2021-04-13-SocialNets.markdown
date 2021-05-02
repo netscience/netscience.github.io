@@ -2,15 +2,21 @@
 layout:     post
 title:      Epidemic models for COVID-19 Information Diffusion in Mexican Social Media
 author:     Ismael Ariel Robles Martínez
-tags: 	    Infodemic, CODIV-19, social media, social networks, epidemic models
+tags: 	    ["Networks 2021", Infodemia, COVID-19]
 subtitle:  	Networks Conference, 2021
+
+#IMPORTANT: USE CATEGORY: publications TO LIST THIS POST ON "publicaciones" SECTION (ITS ALSO INCLUDED BY DEFAULT IN "Blog" SECTION)
 category:   publications
+
+#NEXT FIELDS ARE OPTIONAL
+#authorURL:  https://netscience.github.io/members/#IR
+#imageTitle:  /img/posts/2021-04-23-conferencia.png
 ---
 <!-- Start Writing Below in Markdown -->
-# Authors
+## Authors
 Ismael Ariel Robles Martínez, Daniela Aguirre Guerrero, Carlos Joel Rivero Moreno, Gerardo Abel Laguna Sánchez
 
-# Abstract 
+## Abstract 
 
 Social media plays a pivotal role in the widespread sharing of information on the Coronavirus
 Disease 2019 (COVID-19). Social media platforms have been used across several countries by public administration as part of the communication plan in order to disseminate accurate information on COVID-19 and raising awareness in preventative behaviours.
@@ -35,5 +41,5 @@ obtained different characterizations of the SIR model in Twitter and Reddit. We 
 polarized opinions about the same topic have also different patterns in the same social platform.
 
 
-# Keywords
+## Keywords
 Infodemic, CODIV-19, social media, social networks, epidemic models

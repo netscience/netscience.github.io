@@ -2,12 +2,17 @@
 layout:     post
 title:      "Conferencia: Redes científicas en torno a la COVID-19"
 author:     Daniela Aguirre Guerrero
-tags: 		["Seminario de ciencia de redes", "Ciencia de redes"]
+
+#IMPORTANT: USE THE TAG: "Seminario de ciencia de redes" TO LIST THIS POST ON "Seminarios/Conferencias previas"
+tags: 		["Seminario de ciencia de redes"]
+
 subtitle:  	"Seminario de ciencia de redes: métodos y aplicaciones"
+
+#IMPORTANT: USE CATEGORY: posts TO LIST THIS POST ON BLOGS
 category:   posts
 
 
-#next fields are optional:
+#NEXT FIELDS ARE OPTIONAL
 authorURL:  https://netscience.github.io/members/#DA
 imageTitle:  /img/posts/2021-04-23-conferencia.png
 ---
