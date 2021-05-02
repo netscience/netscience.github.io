@@ -1,8 +1,12 @@
 ---
 layout: page
+
+# if the blog title and description is changed you should also update with the same values
+# the variables "title" and "description" in post.html (_layouts) 
 title: Blog
 description: Artículos sobre técnicas de análsis de redes sociales y sus aplicaciones
 ---
+
 
 <!-- <form action="get" id="site_search">
 <center>
@@ -32,6 +36,21 @@ description: Artículos sobre técnicas de análsis de redes sociales y sus apli
 {% assign tags_list = nil %}
 </div></ul>
 -->
+
+<h1>Todos los artículos en el blog:</h1>
+<ul class="post-summary-list">
+  {% for post in site.posts %}
+    <li>
+      <a class="strong-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      <span class="post-summary-author">Autor: {{post.author}}.</span>      
+      <span class="post-summary-date">  Fecha:&nbsp;&nbsp; <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time>.</span>
+    </li>
+  {% endfor %}
+</ul>
+
+
+
+<!--
 {% for tag in site.tags %} 
   <h2 id="{{ tag[0] }}">{{ tag[0] | capitalize }}</h2>
   <ul class="post-list">
@@ -39,7 +58,7 @@ description: Artículos sobre técnicas de análsis de redes sociales y sus apli
     {% for post in pages_list %}
       {% if post.title != null %}
       {% if group == null or group == post.group %}
-      <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }} - <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></a></li>
+      <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }} - <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></a></li>
       {% endif %}
       {% endif %}
     {% endfor %}
@@ -47,3 +66,4 @@ description: Artículos sobre técnicas de análsis de redes sociales y sus apli
     {% assign group = nil %}
   </ul>
 {% endfor %}
+-->

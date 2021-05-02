@@ -2,9 +2,9 @@
 layout:     post
 title:      Ranking of Latin-American scientific communities and their response to the emergency of COVID-19
 author:     Daniela Aguirre Guerrero
-tags: 		post
+tags: 		Community ranking, scientific networks, COVID-19
 subtitle:  	Networks Conference, 2021
-category:  project1
+category:   publications
 ---
 <!-- Start Writing Below in Markdown -->
 # Authors

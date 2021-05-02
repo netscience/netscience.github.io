@@ -2,19 +2,19 @@
 layout: page
 title: "Miembros"
 description: "Colaboradores del proyecto"
-header-img: "img/portadas/p7.jpg"
+#header-img: "img/portadas/p7.jpg"
 ---
 <hr>
 
 {% for member in site.data.members %}
 	{% if member.visible == true %}
 
-	<div class="member-header">
+	<div id="{{member.id}}" class="member-header">
 	<div class="member-imgwrapper">	
 	{% if member.imgRoundCorner %}
-	<img src="{{ member.img }}" class="member-img" style="">	
+	<img src="{{ member.img | prepend: site.baseurl}}" class="member-img" style="">	
 	{% else %}
-	<img src="{{ member.img }}" class="member-img round-img" style="">
+	<img src="{{ member.img | prepend: site.baseurl}}" class="member-img round-img" style="">
 	{% endif %}
 	</div><!-- end of member-imgwrapper-->
 	

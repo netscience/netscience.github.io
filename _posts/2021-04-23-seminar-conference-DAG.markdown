@@ -1,40 +1,44 @@
 ---
 layout:     post
-title:      Ranking of Latin-American scientific communities and their response to the emergency of COVID-19
+title:      "Conferencia: Redes científicas en torno a la COVID-19"
 author:     Daniela Aguirre Guerrero
-tags: 		post
-subtitle:  	Networks Conference, 2021
-category:  project1
+tags: 		["Seminario de ciencia de redes", "Ciencia de redes"]
+subtitle:  	"Seminario de ciencia de redes: métodos y aplicaciones"
+category:   posts
+
+
+#next fields are optional:
+authorURL:  https://netscience.github.io/members/#DA
+imageTitle:  /img/posts/2021-04-23-conferencia.png
 ---
-<!-- Start Writing Below in Markdown -->
-# Authors
-Daniela Aguirre Guerrero, Juan Carlos López García, Karen Samara Miranda Campos
 
-# Abstract 
+El 21 de Abril de 2021 se llevó a cabo la primera conferencia del seminario: ["Ciencia de redes: métodos y aplicaciones"](https://netscience.github.io/seminario). 
+Tuve el gusto de participar impartiendo la conferencia titulada: **Redes científicas en torno a la COVID-19**. A continuación he colocado el resumen de la conferencia 
+y el video de la transmisión en vivo.
 
-The social network analysis has been successfully used to learn the nature and relationship of knowledge construction and scientific collaborations. In particular, the analysis of co-authorship and citation networks allows to study the arise and impact of new research trends and research groups by using algorithms for community detection and node ranking. Most of the studies in this direction focus on identifying the centrality and influence of individual scientists; however, a research group should hold a more influential position, and thus plays a more important role. Moreover, the identification and ranking of research groups is a significant component to understand how the scientific collaborations should be molded by disruptive events, such as the Coronavirus Disease 2019 (COVID-19).
+### Resumen
 
-The COVID-19 brought numerous challenges to the global scientific community, which has impacted the scientific collaboration dynamics in different knowledge areas from social to basic sciences. The COVID-19 research landscape has been presented in studies focused on the top productive regions, i.e., North America, Europe, and China. However, the scientific community of developing regions, such as Latin-America, have their own collaboration dynamics and research interests. This study aimed to investigate the collaboration relationships and research topics of the Latin-American scientific community on COVID-19, to identify and rank research groups of different knowledge areas.
+La enfermedad por coronavirus 2019 (COVID-19, por sus siglas en inglés) trajo consigo numerosos
+retos a la comunidad científica mundial, lo cual ha modificado las dinámicas de colaboración en
+distintas áreas del conocimiento, desde las ciencias sociales hasta las ciencias básicas. El análisis de
+redes sociales permite comprender cómo las colaboraciones científicas y tendencias de
+investigación se ven modificadas ante eventos disruptivos como la COVID-19. Este tipo de análisis,
+también, permite predecir el surgimiento e impacto de nuevas tendencias y grupos de
+investigación.
 
-The presented analysis was developed on the studies published in 2019 by authors affiliated with Latin-American institutions. First, the articles were retrieved from the Scopus database, then an analysis of co-authorship and citation networks over time and space was performed to identify the most productive countries, authors, and their collaboration dynamics and research interests. Finally, an algorithm for community ranking is proposed and applied to identify the most influential research groups on different knowledge areas. The main contributions of this study are a novel algorithm for community ranking and the COVID-19 research landscape of the Latin-American scientific community.
+Aunque ya se han presentado diversos estudios sobre las redes de colaboración científica en torno
+a la COVID-19, estos estudios se centran en la comunidad científica de las regiones con mayor
+desarrollo económico, tales como Norteamérica, Europa y China. En este seminario se presentará
+un análisis de las redes de colaboración de la comunidad científica Latinoamericana en torno a la
+COVID-19. El análisis contempla la aplicación de algoritmos de detección de comunidades y análisis
+de enlaces sobre redes de coautorías y citaciones de artículos científicos publicados en 2020 e
+indizados en la base de datos Scopus. Como resultados, se presenta una clasificación de las
+comunidades científicas y su impacto en el surgimiento de tendencias interdisciplinarias de
+investigación.
 
-# Keywords
+### Keywords
 Community ranking, scientific networks, COVID-19
 
+### Video de la conferencia
 
-
-<h1>Transmisión en vivo del seminario</h1>
-<h3>Conferencia: "Redes científicas en torno a la COVID-19"</h3>
-<h3>Ponente: Dra. Daniela Aguirre Guerrero</h3>
-<p style="margin-top:15px; margin-bottom: 10px"><strong>Fecha</strong>: 23 de Abril de 2021</p>
-<p style="margin-top:15px; margin-bottom:10px;"><strong>Nota</strong>: En caso de que no aparezca el video de la transmisión en vivo, vuelve a cargar la página.</p>
-
-<div class="live-stream-container"> 
-
-	<iframe onclick="location.href='https://www.youtube.com/embed/E5zW9Qh4nyI';" width="560" height="315" src="https://www.youtube.com/embed/E5zW9Qh4nyI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<!-- 
-<script>
-	location.href='https://www.youtube.com/watch?v=E5zW9Qh4nyI&ab_channel=SIC2UAMLERMA';
-</script>
--->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/E5zW9Qh4nyI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

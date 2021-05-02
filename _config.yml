@@ -1,14 +1,14 @@
 # Site settings
 title: Caracterización de modelos de evolución de redes sociales
 description: "Proyecto Divisional de la Universidad Autónoma Metropolitana, vigencia: 2021-2022"
-url: "https://netscience.github.io" #"http://127.0.0.1:4000/" 
+url: "https://netscience.github.io" # LEAVE THIS VALUE AS IT IS, ITS NO LONGER NECESSARY to change it to "http://127.0.0.1:4000/" 
 
 
 
 
 # Secondary Parameters
-baseurl: ""
-header-img: img/portadas/p7.jpg
+baseurl: ""  #/test
+header-img: /img/portadas/p7.jpg
 headercolor: "#FFFFFF"
 logo: /img/logos/Project-Pages-New-Logo-Inverted.png
 
@@ -36,12 +36,12 @@ defaults:
       type: "pages"
     values:
       layout: "project"
-      header-img: "img/portadas/p7.jpg"
+      header-img: "/img/portadas/p7.jpg"
 
 # Prose Settings
 prose:
   ignore: ['feed.xml', '/stl', '/ply', '/js', '/plugin', '/lib', '/projectors', '_layouts', '/_includes', 'Gruntfile.js', 'package.json', 'proselinks.jsonp', 'ppanchor.matin', '.gitignore', '/search', '/css', '/img', 'favicon.png','_data/*.json','LICENSES.md','README.md','colorscheme.scss','members.html','mentions.html','index.html']
-  siteurl: 'http://netscience.github.io/'
+  siteurl: 'http://netscience.github.io'
   ispp: true
   media: 'img'
   metadata:

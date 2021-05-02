@@ -34,23 +34,15 @@ description: "Resultados difundidos en eventos y revistas especializadas"
 -->
 <h2 id="post">Networks 2021</h2>
 <p>
-  Los primeros análisis realizados, en el marco del proyecto de investigación, serán presentados en el evento
-  <b>
-    <a style="text-decoration: none" href="https://networks2021.net/" target="_blank">Networks 2021: A Joint Sunbelt and NetSci Conference</a></b>. 
+  Los primeros análisis realizados, en el marco del proyecto de investigación, serán presentados en el evento  
+  <a class="strong-link" href="https://networks2021.net/" target="_blank">Networks 2021: A Joint Sunbelt and NetSci Conference</a>. 
     Este evento reune por primera vez a las dos conferencias más importantes sobre <em>análisis de redes sociales</em> y <em>ciencia de redes</em>.
     Los trabajos que serán presentados en <a style="text-decoration: none" href="https://networks2021.net/" target="_blank">Networks 2021</a></b> son: 
 </p>
-{% for tag in site.tags %} 
-  <ul class="post-list">
-    {% assign pages_list = tag[1] %}  
-    {% for post in pages_list %}
-      {% if post.title != null %}
-      {% if group == null or group == post.group %}
-      <li><b><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></b></li>
-      {% endif %}
-      {% endif %}
-    {% endfor %}
-    {% assign pages_list = nil %}
-    {% assign group = nil %}
+{% for post in site.categories.publications %}
+  <ul class="post-list">          
+      <li>
+          <a class="strong-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      </li>            
   </ul>
 {% endfor %}

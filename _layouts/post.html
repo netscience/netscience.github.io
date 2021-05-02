@@ -1,26 +1,10 @@
 ---
-layout: default
+layout: default 
 ---
-
-<!-- Post Header -->
-<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}');">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="post-heading" style="padding: 30px 0">
-                    <h1>{{ page.title }}</h1>
-                    {% if page.subtitle %}
-                    <h2 class="subheading">{{ page.subtitle }}</h2>
-                    {% endif %}
-                    <span class="meta">Publicado por {{ page.author}}, {{ page.date | date: "%m/%d/%Y"  }}</span>	
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
-
-
-
+<!--- if you change this values you should update the fields "title" and "description" in blog/index.html --->
+{% assign title = 'Blog' %}
+{% assign description = 'Artículos sobre técnicas de análsis de redes sociales y sus aplicaciones' %}
+{% include page-header.html %}
 
 
 {% for post in site.posts %}
@@ -40,7 +24,7 @@ layout: default
 		<h4 class="post-subtitle">{{ post.subtitle }}</h4>
 	{% endif %}
 	
-	<p class="post-meta" style="margin-top: 5px;margin-bottom:5px; font-size: 0.8em">Publicado por{{ post.author}},  {{ post.date | date: "%m/%d/%Y"  }}</p>
+	<p class="post-meta" style="margin-top: 5px;margin-bottom:5px; font-size: 0.8em">Publicado por {{ post.author}},  {{ post.date | date: "%m/%d/%Y"  }}</p>
 	
 	<div class="notepad-index-post-tags" style="">
 	{% for tag in post.tags %}<a href="{{ site.baseurl }}/search/index.html#{{ tag | cgi_encode }}" title="Other posts from the {{ tag | capitalize }} tag">{{ tag | capitalize }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
@@ -51,7 +35,7 @@ layout: default
 
 <hr class="style-one">
 
-	<img src="{{ member.img }}" style="margin-top:0px; margin-bottom:5px; margin:auto; width:120px !important; border-radius: 50%;">
+	<img src="{{ member.img | prepend: site.baseurl}}" style="margin-top:0px; margin-bottom:5px; margin:auto; width:120px !important; border-radius: 50%;">
 	
 	<h3>{{ member.name }}</h3>
 	
@@ -150,11 +134,36 @@ layout: default
 <!-- Post Content -->
 {% include imagezoom.html %}
 
-<article>
+<article>	
     <div id="content" class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">            	
 
+            	<div class="post-info">
+	            	<h1 class="post-title">{{page.title}}</h1>
+
+
+	            	{% if page.imageTitle%}
+	            	    <div class="post-img-title" style=""></div>
+	                {% endif %}
+
+	            	{% if page.authorURL %}
+	               	    <div class="post-author">
+	            	    	<strong>Autor:</strong>
+	            	    	<a class="strong-link" href="{{page.authorURL}}">{{page.author}}</a>
+	            	    </div>
+	            	{% else %}
+	            	    <div class="post-author">
+	            	    	<strong>Autor:</strong>{{page.author}}
+	            	    </div>
+	            	{% endif %}
+
+	            	<div class="post-date">
+	            		<strong>Fecha:</strong>
+	            		<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %d, %Y" }}</time>
+	            	</div>
+
+                </div>
 				{{ content | markdownify }}
 
                 <hr>

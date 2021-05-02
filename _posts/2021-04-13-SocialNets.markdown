@@ -2,9 +2,9 @@
 layout:     post
 title:      Epidemic models for COVID-19 Information Diffusion in Mexican Social Media
 author:     Ismael Ariel Robles Martínez
-tags: 		post
+tags: 	    Infodemic, CODIV-19, social media, social networks, epidemic models
 subtitle:  	Networks Conference, 2021
-category:  project1
+category:   publications
 ---
 <!-- Start Writing Below in Markdown -->
 # Authors

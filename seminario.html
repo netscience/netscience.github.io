@@ -2,10 +2,10 @@
 layout: page
 title: "Seminario"
 description: "Ciencia de Redes: Métodos y Aplicaciones"
-header-img: "img/portadas/p7.jpg"
+#header-img: "/img/portadas/p7.jpg"
 ---
 
-<h1 class="section-title">Transmisión en vivo del seminario</h1>
+<h1>Transmisión en vivo del seminario:</h1>
 
 <div class="next-conference">	
 	<h3><strong>Conferencia</strong>: "Internacionalización académica a través de un programa de generación de redes"</h3>
@@ -24,6 +24,22 @@ header-img: "img/portadas/p7.jpg"
 
 </div>
 
+<div class="previous-conferences">
+	<h1>Conferencias previas:</h1>
+	{% for post in site.posts %}
+	  {% if post.tags contains 'Seminario de ciencia de redes' %}
+	  <ul class="post-list">          
+	      <li>
+	          <a class="strong-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+	          <span class="post-summary-author">Ponente: {{post.author}}.</span>      
+	          <span class="post-summary-date">Fecha:&nbsp;&nbsp;<time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time>.</span>
+	      </li>            
+	  </ul>
+	  {% endif %}
+	{% endfor %}
+</div>
+
+<h1>Sobre el seminario:</h1>
 <p>
 El seminario <strong>Ciencia de Redes: Métodos y Aplicaciones</strong> es un esfuerzo conjunto de las áreas de investigación de 
 <a class="strong-link"  href="http://www.ler.uam.mx/es/UAMLerma/DSIC" target="_blank">Sistemas de Información y Ciencias Computacionales (SIC2)</a> y de
@@ -40,5 +56,6 @@ El seminario será transmitido en vivo en este portal y por el <a class="strong-
 <p>
 <img src= "{{ "/img/calendario.jpg " | prepend: site.baseurl }}" style="width: 95%; margin-left: 2.5%; margin-right: 2.5%;">
 </p>
+
 
 <div style="clear:both">&nbsp;</div>

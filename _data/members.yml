@@ -1,8 +1,9 @@
 # Members
 
-- name: Daniela Aguirre Guerrero
+- id: DA
+  name: Daniela Aguirre Guerrero
   role: Ciencia de redes / Teoría de gráficas / Algoritmos distribuidos
-  img: ../img/members/me.jpg
+  img: /img/members/me.jpg
   imgRoundCorner: true
   github: daniaguirre
   twitter: danielaaguirreg
@@ -13,41 +14,46 @@
   url: https://daniaguirre.github.io/
   visible: true
   
-- name: Karen Samara Miranda Campos
+- id: KM
+  name: Karen Samara Miranda Campos
   role: Desempeño de voz sobre IP / Redes inalámbricas / Evaluación de protocolos de comunicación
-  img: ../img/members/karen.jpg
+  img: /img/members/karen.jpg
   bio: Desde enero del 2018, la Dra. Miranda es profesora asociada de la UAM, unidad Lerma. Anteriormente, fué profesora visitante en la UAM, unidad Cuajimalpa. De enero del 2011 a abril del 2014, trabajó en INRIA Lille con el grupo de investigación FUN, dirigido por Nathalie Mitton. En diciembre de 2013, recibió el título de Doctora en Ciencias de la Computación por la Universidad de Lille, bajo la dirección de David Simplot-Ryl y Tahiry Razafindralambo. Recibió el título de Ingeniera en Sistemas de Información, y  el título de Maestra en Ciencias y Tecnologías de la Información por la UNAM y la UAM-Iztapalapa, respectivamente.
   researchgate: https://www.researchgate.net/profile/Karen-Miranda-3 
   url: https://ksmiranda.github.io/ 
   visible: true   
 
-- name: Gerardo Abel Laguna Sánchez
+- id: GA
+  name: Gerardo Abel Laguna Sánchez
   role: Comunicaciones digitales / Inteligencia computacional / Procesamiento digital de señales
-  img: ../img/members/gerardo.jpeg
+  img: /img/members/gerardo.jpeg
   bio: En 2010, recibió el grado de Doctor en Ciencias de la Computación del Centro de Investigación en Computación (CIC) del IPN de México. En el año 1998, recibió el grado de Maestro en Ingeniería de la División de Estudios de Posgrado de la Facultad de Ingeniería de la UNAM. En 1993, recibió el grado de Ingeniero en Electrónica de la UAM. El Dr. Laguna trabajó en el sector privado como ingeniero de Diseño y Desarrollo (R&D) de dispositivos originales para manufactura (OEM) y sistemas supervisorios (SCADA) con aplicaciones de telemetría y telecontrol en la industria y el sector de distribución de energía eléctrica. Actualmente, el Dr. Laguna es Senior Member del Institute of Electrical and Electronics Engineers (IEEE) y forma parte del Cuerpo Académico y de Investigación del Departamento de Sistemas de Información y Comunicaciones de la UAM, unidad Lerma; no obstante, antes fue profesor visitante en el área de Redes y Telecomunicaciones del Departamento de Ingenería Eléctrica de la UAM, unidad Iztapalapa.
   researchgate: https://www.researchgate.net/profile/Gerardo-Laguna-Sanchez-2 
   url: http://gerardo-laguna-professional.blogspot.com/
   visible: true   
 
-- name: Carlos Joel Rivero Moreno
+- id: CR
+  name: Carlos Joel Rivero Moreno
   role: Procesamiento digital de señales e imágenes / Reconocimiento de patrones / Sistemas cognitivos artificiales
-  img: ../img/members/carlosr.jpg
+  img: /img/members/carlosr.jpg
   bio: Es Profesor-Investigador Titular C de Tiempo Completo de la UAM Cuajimalpa adscrito al Departamento de Tecnologías de la Información (DTI) de la División de Ciencias de la Comunicación y Diseño (DCCD). Recibió en 2005 el grado de Doctor (PhD) en Ciencias e Ingeniería de la Computación del Instituto Nacional de Ciencias Aplicadas de Lyon (INSA de Lyon, Francia). Realizó investigación en el Laboratorio de Computación en Imágenes y Sistemas Inteligentes de Información (LIRIS - UMR 5205 CNRS) en Procesamiento e Indexación de Imágenes y Vídeo para sistemas de visión con énfasis especial en modelos del sistema de visión humano y transformadas polinomiales. Recibió en 2001 el grado de Maestro en Ciencias (M.C.) en Ingeniería en Computación (área Procesamiento Digital de Imágenes e Indexación Automática de Imágenes) del INSA de Lyon, Francia. Recibió en 2000 el grado de Maestro en Ingeniería (M.I.), Ingeniería Eléctrica (área Procesamiento de Señales y Telecomunicaciones) del Departamento de Ingeniería Eléctrica, División de Estudios de Posgrado de la Facultad de Ingeniería (DEPFI), UNAM, México. Obtuvo en 1996 el grado de Ingeniero en Ingeniería Mecánica, Eléctrica y Electrónica (Área de Sistemas Digitales y Microprocesadores) de la Facultad de Ingeniería, UNAM, México. Sus trabajos de investigación se han centrado en modelos de visión humana, wavelets, representaciones tiempo-frecuencia, y transformadas polinomiales (Hermite, Laguerre).
 #  url: http://dccd.cua.uam.mx/informacion_academicos.php?academico=CarlosJoelRiveroMoreno
   visible: true  
 
-- name: Ismael Ariel Robles
+- id: IR
+  name: Ismael Ariel Robles
   role: Teoría de gráficas / Desarrollo de software / Complejidad computacional
-  img: ../img/members/ismael.png
+  img: /img/members/ismael.png
   imgStyle: margin-bottom:40px !important;
   github: iarobles
   bio: Es Ingeniero en Telemática por el IPN. Tiene un posgrado en Ciencias (Matemáticas), por la UAM. Trabajó por 4 años y medio como consultor y director de proyectos de software para la industria privada. Ha impartido cursos en el IPN, UACM, UAM, Telmex y Ferromex. Es miembro de la Society for Industrial and Applied Mathematics (SIAM). En el área de investigación, ha publicado artículos en revistas internacionales en el área de matemáticas. 
   url: https://iarobles.github.io
   visible: true
 
-- name: Juan Carlos López García
+- id: JL
+  name: Juan Carlos López García
   role: Internacionalización y endogamia de los académicos mexicanos / Redes y comunidades académicas en México / Políticas de la educación superior y gobierno universitario
-  img: ../img/members/jcarlos.png
+  img: /img/members/jcarlos.png
   imgStyle: margin-bottom:90px !important;
   twitter: jcarloslg
   bio: Sociólogo y maestro en Estudios Políticos y Sociales por la UNAM, en donde también ha participado como docente y colaborador en proyectos de investigación de la Facultad de Ciencias Políticas y Sociales, el Instituto de Investigaciones sobre la Universidad y la Educación, el Instituto de Investigaciones Sociales, y Facultad de Filosofía y Letras. En 2015 fue investigador visitante en el egolab-GRAFO del Departamento de Antropología Social y Cultural de la Universidad Autónoma de Barcelona. Desde 2018 se desempeña como profesor investigador del Departamento de Estudios Culturales de la UAM-Lerma, en donde imparte la asignatura "Complejidad e interdisciplina". Es miembro del Consejo Mexicano de Investigación Educativa (COMIE). 

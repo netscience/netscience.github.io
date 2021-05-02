@@ -15,7 +15,52 @@
 }
 
 .section-title{
+	color:blue;
+}
+
+
+
+/* ######################################################################## */
+/*                              BLog
+/* ######################################################################## */
+.post-summary-list{
+	margin-top:2em;
+}
+
+.post-summary-list li{
+	margin-top:1em;
+}
+
+.post-info{
 	text-align: center;
+}
+
+.post-title{
+}
+
+.post-summary-author, .post-summary-date{
+	display:block;	
+}
+
+.post-author, .post-date{	
+	display:inline-block;
+	font-size:1.2em;
+	margin-right: 1em;
+	margin-top:0.5em;
+}
+
+.post-img-title{
+	background-image: url("/img/posts/2021-04-23-conferencia.png");	
+	background-size: cover;
+	background-position: center center;
+	/*
+	box-shadow: 0 22px 70px 4px rgba(0, 0, 0, 0.56);  
+	*/
+	box-shadow: 1px 1px 7px 3px rgb(0 0 0 / 24%);
+	height:15em;
+	margin-top:1em;
+	margin-bottom:1em;
+	width:100%;
 }
 
 
@@ -40,8 +85,20 @@
 
 
 /* ######################################################################## */
-/*                                next conference 
+/*                              seminario section
 /* ######################################################################## */
+
+.previous-conferences{
+	margin-top: 3em;
+	margin-bottom:3em;
+}
+
+.previous-conferences ul{
+	margin-top:2em;
+}
+
+
+/* ###################### next conference ##################### */
 
 .next-conference h1, h2, h3, h4{	
 	font-weight: 500;
@@ -53,12 +110,10 @@
 }
 
 
-/* ######################################################################## */
-/*                                live stream
-/* ######################################################################## */
-
+/* ###################### live stream ##################### */
 
 .live-stream{	
+	margin-bottom: 3em;
 }
 
 
