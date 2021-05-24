@@ -144,7 +144,7 @@ layout: default
 
 
 	            	{% if page.imageTitle%}
-	            	    <div class="post-img-title" style=""></div>
+	            	    <div class="post-img-title" style="background-image: url('{{ page.imageTitle | prepend: site.baseurl }}');"></div>
 	                {% endif %}
 
 	            	{% if page.authorURL %}
