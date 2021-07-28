@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Primera edición del seminario \"Ciencia de Redes: Métodos y Aplicaciones\""
-author:     Daniela Aguirre Guerrero
+author:     Ismael Ariel Robles Martínez
 
 #IMPORTANT: USE THE TAG: "Seminario de ciencia de redes" TO LIST THIS POST ON "Seminarios/Conferencias previas" on seminario.html
 #tags: 		["Seminario de ciencia de redes"]
@@ -13,9 +13,9 @@ category:   posts
 
 
 #NEXT FIELDS ARE OPTIONAL
-authorURL:  https://netscience.github.io/members/#DA
-imageTitle:  /img/posts/2021-06-11-seminar-netscience-epilogue.png
-imageTitleCustomCSS: background-size:contain; background-repeat:no-repeat;
+authorURL:  https://netscience.github.io/members/#IR
+imageTitle:  /img/posts/2021-06-11-seminar-netscience-epilogue-v2.png
+imageTitleCustomCSS: background-size:100% 100%; background-repeat:no-repeat; background-origin:content-box; padding:1em;
 ---
 
 La primera edición del seminario "Ciencia de Redes: Métodos y Aplicaciones", fué un esfuerzo conjunto de las áreas de investigación de <a class="strong-link" style="text-decoration: none" href="http://www.ler.uam.mx/es/UAMLerma/DSIC" target="_blank">Sistemas de Información y Ciencias Computacionales</a> y de <a class="strong-link" style="text-decoration: none" href="http://www.ler.uam.mx/es/UAMLerma/areasInvestigacionEC" target="_blank">Estudios sobre Cultura Dígital</a>
