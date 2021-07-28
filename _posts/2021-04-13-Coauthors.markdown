@@ -11,6 +11,7 @@ category:   publications
 #NEXT FIELDS ARE OPTIONAL
 #authorURL:  https://netscience.github.io/members/#DA
 #imageTitle:  /img/posts/2021-04-23-conferencia.png
+#imageTitleCustomCSS: background-size:contain; background-repeat:no-repeat;
 ---
 <!-- Start Writing Below in Markdown -->
 ## Authors

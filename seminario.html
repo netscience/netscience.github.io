@@ -8,10 +8,10 @@ description: "Ciencia de Redes: Métodos y Aplicaciones"
 <h1>Transmisión en vivo del seminario:</h1>
 
 <div class="next-conference">	
-	<h3><strong>Conferencia</strong>: "Modelo heurístico para dinámicas epidemiológicas y su posible aplicación a la pandemia de COVID-19""</h3>
-	<h3><strong>Ponente</strong>: Dr. Gerardo Abel Laguna Sánchez</h3>
-	<h3><strong>Afiliación</strong>: Universidad Autónoma Metropolitana (UAM), Unidad Lerma</h3>
-	<h3><strong>Fecha</strong>: 11 de Junio de 2021. A partir de las <strong>4:00 pm</strong></h3>
+	<h3><strong>Conferencia</strong>: "Redes en Biomedicina: de lo molecular a lo pandémico".</h3>
+	<h3><strong>Ponente</strong>: Dr. Guillermo de Anda Jáuregui.</h3>
+	<h3><strong>Afiliación</strong>: Instituto Nacional de Medicina Genómica (INMEGEN).</h3>
+	<h3><strong>Fecha</strong>: 6 de Agosto de 2021. A partir de las <strong>4:00 pm.</strong></h3>
 </div>
 
 <div class="live-stream"> 
@@ -27,26 +27,29 @@ description: "Ciencia de Redes: Métodos y Aplicaciones"
 -->
 </div>
 
+
+<!--
 <div class="previous-conferences">
 	<h1>Conferencias previas:</h1>
+	<ul class="post-summary-list">     
 	{% for post in site.posts %}
 	  {% if post.tags contains 'Seminario de ciencia de redes' %}
-	  <ul class="post-list">          
+	       
 	      <li>
 	          <a class="strong-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
 	          <span class="post-summary-author">Ponente: {{post.author}}.</span>      
 	          <span class="post-summary-date">Fecha:&nbsp;&nbsp;<time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time>.</span>
-	      </li>            
-	  </ul>
+	      </li>            	  
 	  {% endif %}
 	{% endfor %}
+	</ul>
 </div>
+-->
 
 <h1>Sobre el seminario:</h1>
 <p>
 El seminario <strong>Ciencia de Redes: Métodos y Aplicaciones</strong> es un esfuerzo conjunto de las áreas de investigación de 
-<a class="strong-link"  href="http://www.ler.uam.mx/es/UAMLerma/DSIC" target="_blank">Sistemas de Información y Ciencias Computacionales (SIC2)</a> y de
-<a class="strong-link"  href="http://www.ler.uam.mx/es/UAMLerma/areasInvestigacionEC" target="_blank">Estudios sobre Cultura Dígital</a> de la
+<a class="strong-link"  href="http://www.ler.uam.mx/es/UAMLerma/DSIC" target="_blank">Sistemas de Información y Ciencias Computacionales (SIC2)</a> de la
 <a class="strong-link"  href="http://www.ler.uam.mx" target="_blank">UAM-Lerma</a>. En este seminario se presentarán 
 avances de investigaciones entorno a métodos matemáticos y computacionales aplicados a la Ciencia de Redes, así como casos de estudio de análisis de redes sociales 
 que van desde el <em>análisis de redes académicas</em>, <em>propagación de información en medios sociales</em> y <em>propagación de epidemias</em>.
@@ -56,9 +59,11 @@ que van desde el <em>análisis de redes académicas</em>, <em>propagación de in
 El seminario será transmitido en vivo en este portal y por el <a class="strong-link" href="https://www.youtube.com/channel/UCunrvKz1WB8sElwhFkBI3Pw" target="_blank" >canal oficial de Youtube del SIC2</a>. Al final de cada sesión se dará tiempo para atender dudas y comentarios de los asistentes.    
 </p>
 
+<!--
 <p>
-<img src= "{{ "/img/calendario.jpg " | prepend: site.baseurl }}" style="width: 95%; margin-left: 2.5%; margin-right: 2.5%;">
+<img src= "{{ "/img/calendario.jpg" | prepend: site.baseurl }}" style="width: 95%; margin-left: 2.5%; margin-right: 2.5%;">
 </p>
+-->
 
 
 <div style="clear:both">&nbsp;</div>

@@ -4,7 +4,7 @@ title:      "Conferencia: Aprendizaje de máquina aplicado al análisis de redes
 author:     Ismael Ariel Robles Martínez
 
 #IMPORTANT: USE THE TAG: "Seminario de ciencia de redes" TO LIST THIS POST ON "Seminarios/Conferencias previas"
-tags: 		["Seminario de ciencia de redes"]
+#tags: 		["Seminario de ciencia de redes"]
 
 subtitle:  	"Seminario de ciencia de redes: métodos y aplicaciones"
 
@@ -15,6 +15,7 @@ category:   posts
 #NEXT FIELDS ARE OPTIONAL
 authorURL:  https://netscience.github.io/members/#IR
 imageTitle:  /img/posts/2021-05-07-conferencia.png
+#imageTitleCustomCSS: background-size:contain; background-repeat:no-repeat;
 ---
 
 El 28 de Mayo de 2021 se llevó a cabo la tercera conferencia del seminario: ["Ciencia de redes: métodos y aplicaciones"](https://netscience.github.io/seminario). 

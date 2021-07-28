@@ -4,7 +4,7 @@ title:      "Conferencia: Internacionalización académica a través de un progr
 author:     Juan Carlos López Garcia
 
 #IMPORTANT: USE THE TAG: "Seminario de ciencia de redes" TO LIST THIS POST ON "Seminarios/Conferencias previas"
-tags: 		["Seminario de ciencia de redes"]
+#tags: 		["Seminario de ciencia de redes"]
 
 subtitle:  	"Seminario de ciencia de redes: métodos y aplicaciones"
 
@@ -15,6 +15,7 @@ category:   posts
 #NEXT FIELDS ARE OPTIONAL
 authorURL:  https://netscience.github.io/members/#JL
 imageTitle:  /img/posts/2021-05-07-conferencia.png
+#imageTitleCustomCSS: background-size:contain; background-repeat:no-repeat;
 ---
 
 El 7 de Mayo de 2021 se llevó a cabo la segunda conferencia del seminario: ["Ciencia de redes: métodos y aplicaciones"](https://netscience.github.io/seminario). 
