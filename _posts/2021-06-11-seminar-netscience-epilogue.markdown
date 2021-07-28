@@ -18,7 +18,7 @@ imageTitle:  /img/posts/2021-06-11-seminar-netscience-epilogue-v2.png
 imageTitleCustomCSS: background-size:100% 100%; background-repeat:no-repeat; background-origin:content-box; padding:1em;
 ---
 
-La primera edición del seminario "Ciencia de Redes: Métodos y Aplicaciones", fué un esfuerzo conjunto de las áreas de investigación de <a class="strong-link" style="text-decoration: none" href="http://www.ler.uam.mx/es/UAMLerma/DSIC" target="_blank">Sistemas de Información y Ciencias Computacionales</a> y de <a class="strong-link" style="text-decoration: none" href="http://www.ler.uam.mx/es/UAMLerma/areasInvestigacionEC" target="_blank">Estudios sobre Cultura Dígital</a>
+La primera edición del seminario "Ciencia de Redes: Métodos y Aplicaciones", fue un esfuerzo conjunto de las áreas de investigación de <a class="strong-link" style="text-decoration: none" href="http://www.ler.uam.mx/es/UAMLerma/DSIC" target="_blank">Sistemas de Información y Ciencias Computacionales</a> y de <a class="strong-link" style="text-decoration: none" href="http://www.ler.uam.mx/es/UAMLerma/areasInvestigacionEC" target="_blank">Estudios sobre Cultura Dígital</a>
  de la <a class="strong-link" href="http://www.ler.uam.mx" target="_blank">UAM-Lerma</a>.
 
  En este seminario se presentaron avances de investigaciones entorno a métodos matemáticos y computacionales aplicados a la Ciencia de Redes, así como casos de estudio de análisis de redes sociales que van desde el análisis de redes académicas, propagación de información en medios sociales y propagación de epidemias.
