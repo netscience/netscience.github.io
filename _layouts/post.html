@@ -153,15 +153,19 @@ layout: default
 	            	    	<a class="strong-link" href="{{page.authorURL}}">{{page.author}}</a>
 	            	    </div>
 	            	{% else %}
-	            	    <div class="post-author">
-	            	    	<strong>Autor:</strong>{{page.author}}
-	            	    </div>
+	            	    {% if page.hideAuthor != true %}
+	            	        <div class="post-author">
+	            	    	    <strong>Autor:</strong>{{page.author}}
+	            	        </div>
+	            	    {% endif %}
 	            	{% endif %}
 
-	            	<div class="post-date">
-	            		<strong>Fecha:</strong>
-	            		<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %d, %Y" }}</time>
-	            	</div>
+	            	{% if page.hideAuthor != true %}
+	            	    <div class="post-date">
+	            		    <strong>Fecha:</strong>
+	            		    <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %d, %Y" }}</time>
+	            	    </div>
+	            	{% endif %}
 
                 </div>
 				{{ content | markdownify }}

@@ -45,6 +45,22 @@ description: "Ciencia de Redes: Métodos y Aplicaciones"
   <a class="strong-link download-conference-link" target="_blank" download="Seminario2-RMJ-Recableado.pdf" href="/img/seminar-2ed/Seminario2-RMJ-Recableado.pdf">Descargar poster (pdf)</a>  
 </div>
 
+<div class="previous-conferences">
+	<h1>Conferencias previas (segunda edición):</h1>
+	<ul class="post-summary-list">     
+	{% for post in site.posts %}
+	  {% if post.tags contains 'Seminario de ciencia de redes (2ª ed.)' %}
+	       
+	      <li>
+	          <a class="strong-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+	          <span class="post-summary-author">Ponente: {{post.speaker}}.</span>      
+	          <span class="post-summary-date">Fecha:&nbsp;&nbsp;<time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time>.</span>
+	      </li>            	  
+	  {% endif %}
+	{% endfor %}
+	</ul>
+</div>
+
 <div class="previous-seminar-editions">
   <h1>Ediciones anteriores del seminario:</h1>
   <ul class="post-summary-list">     
@@ -53,25 +69,6 @@ description: "Ciencia de Redes: Métodos y Aplicaciones"
 	</li>
   </ul>
 </div>
-
-
-<!--
-<div class="previous-conferences">
-	<h1>Conferencias previas:</h1>
-	<ul class="post-summary-list">     
-	{% for post in site.posts %}
-	  {% if post.tags contains 'Seminario de ciencia de redes' %}
-	       
-	      <li>
-	          <a class="strong-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-	          <span class="post-summary-author">Ponente: {{post.author}}.</span>      
-	          <span class="post-summary-date">Fecha:&nbsp;&nbsp;<time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time>.</span>
-	      </li>            	  
-	  {% endif %}
-	{% endfor %}
-	</ul>
-</div>
--->
 
 <h1>Sobre el seminario:</h1>
 <p>
