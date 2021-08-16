@@ -1,17 +1,33 @@
 ---
 layout:     post
 title:      Epidemic models for COVID-19 Information Diffusion in Mexican Social Media
+subtitle:  	Networks Conference, 2021
 author:     Ismael Ariel Robles Martínez
 tags: 	    ["Networks 2021", Infodemia, COVID-19]
-subtitle:  	Networks Conference, 2021
-
-#IMPORTANT: USE CATEGORY: publications TO LIST THIS POST ON "publicaciones" SECTION (ITS ALSO INCLUDED BY DEFAULT IN "Blog" SECTION)
+#IMPORTANT:
+#          USE CATEGORY: publications 
+#                          TO LIST THIS POST ON "publicaciones" SECTION (ITS ALSO INCLUDED BY DEFAULT IN "Blog" SECTION)
+#          USE CATEGORY: posts
+#                          FOR BETTER INDEXING OF POSTS (A PREFIX /posts its included in the URL)
 category:   publications
 
-#NEXT FIELDS ARE OPTIONAL
-#authorURL:  https://netscience.github.io/members/#IR
+
+#--------------------------------- NEXT FIELDS ARE OPTIONAL--------------------------------
+
+#authorURL:  https://netscience.github.io/members/#DA
 #imageTitle:  /img/posts/2021-04-23-conferencia.png
 #imageTitleCustomCSS: background-size:contain; background-repeat:no-repeat;
+
+#IMPORTANT: next field is used to hide the field "Autor" in layout "post.html".
+#hideAuthor: true
+
+#IMPORTANT: next field is used to hide the field "Fecha" in layout "post.html".
+#hideDate: true
+
+#IMPORTANT (FOR PREVIOUS CONFERENCES ONLY): next field is used on seminario.html to show the speaker of a previous conference
+#speaker: Dr Daniela Aguirre Guerrero. 
+
+
 ---
 <!-- Start Writing Below in Markdown -->
 ## Authors

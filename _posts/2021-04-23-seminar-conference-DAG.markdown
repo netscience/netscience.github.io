@@ -1,21 +1,33 @@
 ---
 layout:     post
 title:      "Conferencia: Redes científicas en torno a la COVID-19"
+subtitle:  	"Seminario de ciencia de redes: métodos y aplicaciones (1ª ed.)"
 author:     Daniela Aguirre Guerrero
-
-#IMPORTANT: USE THE TAG: "Seminario de ciencia de redes" TO LIST THIS POST ON "Seminarios/Conferencias previas"
-#tags: 		["Seminario de ciencia de redes"]
-
-subtitle:  	"Seminario de ciencia de redes: métodos y aplicaciones"
-
-#IMPORTANT: USE CATEGORY: posts TO LIST THIS POST ON BLOGS
+tags: 		["Seminario de ciencia de redes (1ª ed.)", COVID-19]
+#IMPORTANT:
+#          USE CATEGORY: publications 
+#                          TO LIST THIS POST ON "publicaciones" SECTION (ITS ALSO INCLUDED BY DEFAULT IN "Blog" SECTION)
+#          USE CATEGORY: posts
+#                          FOR BETTER INDEXING OF POSTS (A PREFIX /posts its included in the URL)
 category:   posts
 
 
-#NEXT FIELDS ARE OPTIONAL
+#--------------------------------- NEXT FIELDS ARE OPTIONAL--------------------------------
+
 authorURL:  https://netscience.github.io/members/#DA
 imageTitle:  /img/posts/2021-04-23-conferencia.png
 #imageTitleCustomCSS: background-size:contain; background-repeat:no-repeat;
+
+#IMPORTANT: next field is used to hide the field "Autor" in layout "post.html".
+#hideAuthor: true
+
+#IMPORTANT: next field is used to hide the field "Fecha" in layout "post.html".
+#hideDate: true
+
+#IMPORTANT (FOR PREVIOUS CONFERENCES ONLY): next field is used on seminario.html to show the speaker of a previous conference
+speaker: Dr Daniela Aguirre Guerrero. 
+
+
 ---
 
 El 21 de Abril de 2021 se llevó a cabo la primera conferencia del seminario: ["Ciencia de redes: métodos y aplicaciones"](https://netscience.github.io/seminario). 

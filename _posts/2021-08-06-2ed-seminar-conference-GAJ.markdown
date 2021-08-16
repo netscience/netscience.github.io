@@ -1,30 +1,34 @@
 ---
 layout:     post
 title:      "Conferencia: \"Redes en Biomedicina: de lo molecular a lo pandémico\"."
+subtitle:  	"Seminario de ciencia de redes: métodos y aplicaciones (2ª ed.)"
 author:     Ismael Ariel Robles Martínez
-
-#IMPORTANT: next field is used to disable the field "Autor" in layout "post.html".
-hideAuthor: true
-
-#IMPORTANT: next field is used to disable the field "Fecha" in layout "post.html".
-hideDate: true
-
-#IMPORTANT: next field is used on seminario.html to list previous conferences
-speaker: Dr. Guillermo de Anda Jáuregui
-
-#IMPORTANT: USE THE TAG: "Seminario de ciencia de redes (2ª ed.)" TO LIST THIS POST ON "Seminarios/Conferencias previas"
+#IMPORTANT (FOR PREVIOUS CONFERENCES ONLY): USE THE TAG: "Seminario de ciencia de redes (2ª ed.)" TO LIST THIS POST ON "Seminarios/Conferencias previas"
 tags: 		["Seminario de ciencia de redes (2ª ed.)"]
-
-subtitle:  	"Seminario de ciencia de redes: métodos y aplicaciones (Segunda edición)"
-
-#IMPORTANT: USE CATEGORY: posts TO LIST THIS POST ON BLOGS
+#IMPORTANT:
+#          USE CATEGORY: publications 
+#                          TO LIST THIS POST ON "publicaciones" SECTION (ITS ALSO INCLUDED BY DEFAULT IN "Blog" SECTION)
+#          USE CATEGORY: posts
+#                          FOR BETTER INDEXING OF POSTS (A PREFIX /posts its included in the URL)
 category:   posts
 
 
-#NEXT FIELDS ARE OPTIONAL
+#--------------------------------- NEXT FIELDS ARE OPTIONAL--------------------------------
+
 #authorURL:  https://netscience.github.io/members/#IR
 #imageTitle:  /img/posts/2021-05-07-conferencia.png
 #imageTitleCustomCSS: background-size:contain; background-repeat:no-repeat;
+
+#IMPORTANT: next field is used to hide the field "Autor" in layout "post.html".
+hideAuthor: true
+
+#IMPORTANT: next field is used to hide the field "Fecha" in layout "post.html".
+hideDate: true
+
+#IMPORTANT (FOR PREVIOUS CONFERENCES ONLY): next field is used on seminario.html to show the speaker of a previous conference
+speaker: Dr. Guillermo de Anda Jáuregui
+
+
 ---
 
 
